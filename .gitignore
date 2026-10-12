@@ -1,0 +1,14 @@
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Large datasets
+data/transactions.csv
+results/X_prepared.csv
+results/y_target.csv
