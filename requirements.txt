@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pytest
+httpx
+flake8
+scikit-learn
+imbalanced-learn
+pandas
+numpy
