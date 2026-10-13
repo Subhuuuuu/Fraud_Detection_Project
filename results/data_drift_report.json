@@ -1,0 +1,67 @@
+{
+  "dataset": "transactions.csv",
+  "rows_checked": 100000,
+  "sampling_note": "First 100,000 rows; this is a baseline diagnostic, not a production traffic drift measurement.",
+  "missing_values": {
+    "step": 0,
+    "type": 0,
+    "amount": 0,
+    "oldbalanceOrg": 0,
+    "newbalanceOrig": 0,
+    "oldbalanceDest": 0,
+    "newbalanceDest": 0,
+    "isFraud": 0
+  },
+  "fraud_rate": 0.00116,
+  "transaction_type_distribution": {
+    "PAYMENT": 0.39512,
+    "CASH_OUT": 0.30718,
+    "CASH_IN": 0.20185,
+    "TRANSFER": 0.08597,
+    "DEBIT": 0.00988
+  },
+  "numeric_summary": {
+    "step": {
+      "mean": 8.49964,
+      "median": 9.0,
+      "std": 1.8255446301087737,
+      "min": 1.0,
+      "max": 10.0
+    },
+    "amount": {
+      "mean": 173602.22176409996,
+      "median": 52745.520000000004,
+      "std": 344300.3200903952,
+      "min": 0.32,
+      "max": 10000000.0
+    },
+    "oldbalanceOrg": {
+      "mean": 877757.5133935,
+      "median": 20061.5,
+      "std": 2673284.4130460587,
+      "min": 0.0,
+      "max": 33797391.55
+    },
+    "newbalanceOrig": {
+      "mean": 894061.9168872,
+      "median": 0.0,
+      "std": 2711317.8156114654,
+      "min": 0.0,
+      "max": 34008736.98
+    },
+    "oldbalanceDest": {
+      "mean": 880504.8062194,
+      "median": 20839.43,
+      "std": 2402267.213443203,
+      "min": 0.0,
+      "max": 34008736.98
+    },
+    "newbalanceDest": {
+      "mean": 1184041.4242214,
+      "median": 49909.18,
+      "std": 2802349.6812426127,
+      "min": 0.0,
+      "max": 38946233.02
+    }
+  }
+}
