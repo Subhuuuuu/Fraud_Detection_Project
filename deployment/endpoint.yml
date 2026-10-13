@@ -1,0 +1,6 @@
+
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineEndpoint.schema.json
+
+name: fraud-detection-endpoint
+auth_mode: key
+description: Managed online endpoint for the fraud detection model

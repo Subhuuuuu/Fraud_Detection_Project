@@ -1,15 +1,36 @@
-
 # Python environment and cache
 .venv/
+venv/
 __pycache__/
 .pytest_cache/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Secrets
+# Secrets and environment configuration
 .env
+.env.*
+!.env.example
 
 # Large datasets
 data/transactions.csv
 results/X_prepared.csv
 results/y_target.csv
+
+# Local MLflow tracking database
+mlflow.db
+mlflow.db-journal
+mlflow.db-wal
+mlflow.db-shm
+mlruns/
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
